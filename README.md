@@ -1,9 +1,5 @@
 # SS-R-4in1</br> 
-由于秋水逸冰网站国内无法访问，所以为有需要的朋友复制发布到github</br> 
 ### Shadowsocks 一键安装脚本（四合一）</br> 
-</br> 
-原文链接：https://teddysun.com/486.html</br> 
-</br> 
 </br> 
 本脚本适用环境</br> 
 系统支持：CentOS 6+，Debian 7+，Ubuntu 12+</br> 
@@ -41,7 +37,7 @@ https://github.com/shadowsocksrr/shadowsocksr-csharp/releases</br>
 使用root用户登录，运行以下命令：</br> 
 
 ```
-wget --no-check-certificate -O shadowsocks-all.sh https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-all.sh
+wget --no-check-certificate -O shadowsocks-all.sh https://raw.githubusercontent.com/wrxx2019/ssr/master/shadowsocks-all.sh
 chmod +x shadowsocks-all.sh
 ./shadowsocks-all.sh 2>&1 | tee shadowsocks-all.log
 ```
@@ -61,8 +57,6 @@ Your QR Code: (For Shadowsocks Windows, OSX, Android and iOS clients)
 Your QR Code has been saved as a PNG file path:
  your_path.png
 
-Welcome to visit:https://teddysun.com/486.html
-Enjoy it!
 ```
 
 </br> 
@@ -137,6 +131,4 @@ Shadowsocks-libev 版：
 ```
 /etc/shadowsocks-libev/config.json
 ```
-### VPS推荐</br> 
-<a  href="https://www.vultr.com/promo25b/?ref=7519919" target="_blank">Vultr</a>：15+机房，SSD VPS低至2.5$/月，按小时计费，对新手友好，新用户首充10美元赠送25美元。</br> 
-<a href="https://bwh1.net/aff.php?aff=36877&pid=43" target="_blank">BandwagonHost（搬瓦工）</a>：美西CN2线路，部分IP支持观看Netflix，特价款仅需19$/月，使用优惠码BWH26FXH3HIQ享6%优惠</br> 
+
