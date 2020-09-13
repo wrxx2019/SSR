@@ -844,7 +844,6 @@ install_prepare(){
 install_libsodium(){
     if [ ! -f /usr/lib/libsodium.a ]; then
         cd ${cur_dir}
-        download "${libsodium_file}.tar.gz" "${libsodium_url}"
         tar zxf ${libsodium_file}.tar.gz
         cd ${libsodium_file}
         ./configure --prefix=/usr && make && make install
